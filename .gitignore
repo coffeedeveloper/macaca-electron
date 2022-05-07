@@ -1,11 +1,6 @@
-.DS_Store
+.idea
 node_modules
-npm-debug.log
-.idea/*
-Thumbs.db
 coverage/
 .nyc_output/
-.project
-build/
 *.sw*
 *.un~

@@ -1,35 +1,40 @@
 {
   "name": "macaca-electron",
-  "version": "9.0.2",
+  "version": "17.2.0",
   "description": "macaca electron driver",
   "keywords": [
     "electron",
-    "macaca"
+    "macaca",
+    "chromium"
   ],
-  "main": "./lib/macaca-electron",
+  "files": [
+    "lib/**/*.js"
+  ],
+  "main": "./lib/macaca-electron.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/macacajs/macaca-electron"
   },
   "dependencies": {
+    "@electron/remote": "^2.0.8",
     "co": "^4.6.0",
     "datahub-nodejs-sdk": "2",
     "driver-base": "^0.1.0",
-    "electron": "9.2.0",
-    "macaca-utils": "~1.0.0",
+    "electron": "17.4.1",
+    "lodash": "^4.17.21",
+    "macaca-utils": "1",
     "selenium-atoms": "~1.0.4",
     "webdriver-dfn-error-code": "^1.0.3",
-    "xlogger": "^1.0.0"
+    "xlogger": "1"
   },
   "devDependencies": {
-    "co-mocha": "^1.1.2",
-    "eslint": "^4.5.0",
+    "eslint": "7",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-mocha": "^4.11.0",
     "git-contributor": "1",
     "husky": "^1.3.1",
     "jsdoc": "^3.4.0",
-    "macaca-ecosystem": "1",
+    "macaca-wd": "3",
     "minami": "^1.1.1",
     "mocha": "^4.0.1",
     "nyc": "^13.1.0"
